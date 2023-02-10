@@ -10,7 +10,7 @@ st.code("Hi Myself Aditya Mote")
 
 st.write("This is my first time creating web :no_mouth: I created this with Streamlit python based-library which is used for Data Science & Machine Learning.")
 st.write("Open Source is the Future :heart:")
-st.markdown("In this website i will use an API if you tap on below button you will get the Surprise!")
+st.markdown("In this website i have used an API if you tap on below button you will get the Surprise!")
 
 response = requests.get("https://evilinsult.com/generate_insult.php?lang=en&type=json")
 res = response.json()
